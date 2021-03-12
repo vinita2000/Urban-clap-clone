@@ -1,0 +1,61 @@
+body{
+  background-color: #f3e6ff;
+  color: #33164b;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+input{
+  padding: 10px;
+  margin: 5px;
+}
+.outer{
+  display: inherit;
+  justify-content: center;
+  flex-direction: row;
+  margin: 30px;
+  text-align: center;
+}
+.outer2{
+  display: inherit;
+  justify-content: center;
+  flex-direction: column;
+  margin: 30px;
+  text-align: center;
+  max-width: 250px;
+}
+.btn {
+    background: #a534d9;
+    background-image: -webkit-linear-gradient(top, #8f34d9, #740b9e);
+    background-image: -moz-linear-gradient(top, #8f34d9, #740b9e);
+    background-image: -ms-linear-gradient(top, #8f34d9, #740b9e);
+    background-image: -o-linear-gradient(top, #8f34d9, #740b9e);
+    background-image: linear-gradient(to bottom, #8f34d9, #740b9e);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+.bookingDiv{
+  background-color: #d8baf0;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 15px;;
+}
